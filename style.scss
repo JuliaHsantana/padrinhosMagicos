@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: "Inter", sans-serif;
+}
+header{
+
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1123;
+   
+  section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 40%;
+  }
+ 
+  button{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+}
+.buttonRed{
+    background-color: red;
+}
+
+.buttonblack{
+    background-color: #341941;
+    border: solid 1px white;
+}
+main{
+        background-color: #341941;
+        color: white;
+
+        img{
+            height: 15vh;
+        }
+}
+.caixaTitulo{
+    display: flex;
+    height: 20vh;
+   
+    justify-content: space-around;
+    align-items: center;
+    h2{
+        font-size: 2rem;
+        font-weight: 300;
+        
+    }
+        .episodios {
+            font-weight: 700;
+        }
+}
+
+.caixaEpisodios{
+height: 100vh;
+display: flex;
+justify-content: space-evenly;
+
+    section{
+        width: 30%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    img{
+        height: 25vw;
+    }
+    p{
+        width: 80%;
+      
+    }
+
+}
+
+footer{
+  
+    background-color: #1e1123;
+    color: white;
+  
+   
+    ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+ }
+ 
+ li{
+padding-left: 50px;
+ }
+
+}
